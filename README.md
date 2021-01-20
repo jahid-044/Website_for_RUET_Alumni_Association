@@ -7,7 +7,8 @@ Project is created with:
 * PHP
 * MySQL
 # Demo
-Here is a working live demo: https://alumni-association-ruet.000webhostapp.com  For admin section, username: admin, password: admin
+Here is a working live demo: https://alumni-association-ruet.000webhostapp.com<br/>
+For admin section, username: admin, password: admin
 # Features
 * Alumni can register themselves by filling form in Registration page.
 * Students can get the information of alumni from Member list page.
