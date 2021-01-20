@@ -6,5 +6,5 @@ Project is created with:
 * CSS
 * PHP
 * MySQL
-#Demo
+# Demo
 Here is a working live demo: https://alumni-association-ruet.000webhostapp.com
