@@ -1,0 +1,256 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+
+}
+.html{
+    overflow: scroll;
+}
+
+.reg
+{
+    color: black;
+    font-family: 'Arvo', serif;
+    padding-left: 250px;
+    padding-top: 110px;
+}
+
+input[type=text]{
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password]{
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#x
+{
+    background: #56CAB8;
+    height: 50px; 
+    width: 200px; 
+    font-family: 'Arvo', serif; 
+    font-size: 20px;"
+}
+img
+{
+   padding-right: 200px;    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px 0px 0px;
+  margin: 0px;
+
+  text-decoration: none;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #dee0e0;
+  color: white;
+  padding: 0;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 2em;
+}
+.index
+{
+
+  font-family: 'Jua', sans-serif;
+  background-color: white;
+  color: white;
+}
+.list{
+  font-family: 'Acme', sans-serif;
+  font-size: 1em;
+}
+.new{
+  background-color: white;
+  }
+.con{
+  font-family: 'Arvo', serif;
+}
+
+.jumbotron{
+  background-color: white;
+  padding-bottom: : 0;
+  margin-bottom: : 0;
+  min-height: 300px;
+}
+
+.accordion{
+  background-color: white;
+}
+
+.card{
+  background-color: white;
+
+}
+
+.card-header{
+  background-color: white;
+}
+
+table.paleBlueRows {
+  font-family: 'Arvo', serif;
+  border: 1px solid #FFFFFF;
+  table-layout: auto;
+  width: 100%;
+
+  text-align: center;
+
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 0px solid #FFFFFF;
+  font-size: 15px;
+  padding: 0px 0px;
+  color: black;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+table.paleBlueRows tbody td {
+  font-size: 15px;
+  font-weight: bold;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+.small{
+  font-size: 15px;
+}
+.check1{
+
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+.cclass{
+  font-size: 200%;
+}
+
+.bol{
+  color: #7a0000;
+}
+.lol{
+  color: #32ed38;
+}
+
+
+
+
+
+h1{
+    font-size: 1.5em; /* 25px/16px */
+}
+#content
+{
+    font-size: 1.5em; /* 12/16 */
+    width: 75%; /* 650/960 */
+    max-width: 960px;
+    text-align: left;
+    margin: 0px auto; /*auto centers the container */
+    padding: 3.84615384615385%; /* 25/650 */
+}
+/*CSS3 multiple columns.*/
+/* Get em size for colums: 184/16 */
+.columns
+{
+    -moz-column-width: 25em; /* Firefox */
+    -webkit-column-width: 25em; /* webkit, Safari, Chrome */
+    column-width: 25em;
+}
+/*remove standard list and bullet formatting from ul*/
+.columns ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/* correct webkit/chrome uneven margin on the first column*/
+.columns ul li:first-child
+{
+    margin-top:0px;
+}
+
+.jumbo{
+  width: 100%;
+  height: 90px;
+  background-color: #00666a;
+}
+
+.nav{
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.nav a{
+  color: #00666a;
+  border: 1px solid #00666a;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav a:active{
+  color: white;
+  border: 1px solid white;
+}
+img.center {
+  display: inline-block;
+  margin-left: 460px;
+}
+.dropdown:hover{
+  color: #00666a;
+}
+.dropdown-item h4{
+  color:black;
+}
+
+.nopadding{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
